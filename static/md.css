@@ -1,0 +1,98 @@
+img {
+    /* height: 20px; */
+    vertical-align: -2px;
+}
+
+.markdown-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.markdown-body>* {
+    flex: 1 1 100%;
+    /* Makes all children take up equal width */
+}
+
+.markdown-body>:first-child {
+    flex-basis: 0;
+    margin: 0 10px -150px 0;
+}
+
+.markdown-body>:first-child img {
+    max-width: fit-content;
+    width: 200px;
+}
+
+div.markdown-body > p:nth-child(3) {
+    padding-left: 210px;
+}
+
+.markdown-body h1 {
+    flex: 4;
+}
+
+.markdown-body h3 {
+    margin: 0.5em 0;
+}
+
+.markdown-body mark {
+    background-color: #000000b3;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-right: 7px;
+    padding: 3px;
+    margin-right: 6px;
+}
+
+li {
+    font-size: small;
+    line-height: 1.2em;
+}
+
+.markdown-body ul+hr {
+    margin-top: 20px;
+    margin: 1em;
+    border-style: dotted;
+    height: auto;
+    background-color: white;
+    border: #e8e8e8 dotted 1px;
+}
+
+.markdown-body hr:has(+h2) {
+    box-sizing: content-box;
+    overflow: hidden;
+    background: 0 0;
+    border-bottom: 1px solid var(--borderColor-muted);
+    height: .25em;
+    padding: 0;
+    /* margin: var(--base-size-24) 0; */
+    margin: 0;
+    background-color: var(--borderColor-default);
+    border: 0;
+}
+
+div.markdown-body > hr:nth-child(4)
+{
+    margin-left: 210px;
+}
+.markdown-body table {
+    display: table;
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    table-layout: fixed;
+}
+
+.markdown-body table th {
+    background-color: beige;
+}
+
+.markdown-body h2 {
+    background-color: #efefef;
+}
+
+.markdown-body em+strong {
+    color: #e22;
+}

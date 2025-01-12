@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bogdan Vakuliuk's CV</title>
+  <!-- Import ZeroMD -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+  <!-- Import Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+  <!-- Basic Styling -->
+  <link rel="stylesheet" href="/static/main.css" />
+</head>
+
+<body>
+
+  <div id="app">
+    <template v-if="isMenuVisible">
+      <div :class="['menu', { hidden: !isMenuVisible }]">
+        <h3>Menu</h3>
+        <!-- <button @click="reloadCV()">Reload CV</button> -->
+        <!-- <button @click="changeStyle('dark')">Dark Mode</button> -->
+        <!-- <button @click="changeStyle('light')">Light Mode</button> -->
+        <button @click="scrollToTop" class="back-to-top">Back to Top</button>
+      </div>
+    </template>
+    <div class="content">
+      <button class="toggle-menu" @click="toggleMenu()">
+        <span v-if="isMenuVisible">🖨️</span>
+        <span v-else>☰</span>
+      </button>
+      <zero-md id="scrollable-container" :src="cvSrc" :class="{
+          [theme]: true, // Always apply the current theme
+          'zero-md-normal': isMenuVisible, // Apply ZeroMD's default styles
+          'zero-md-print': !isMenuVisible, // Apply ZeroMD's print styles
+        }">
+        <div v-html="templateContent"></div>
+      </zero-md>
+    </div>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    const app = createApp({
+      data() {
+        return {
+          isMenuVisible: true,
+          cvSrc: '/cv',
+          theme: 'light',
+          // Template content for ZeroMD
+          templateContent: `
+            <template data-append>
+              <link rel="stylesheet" href="/static/md.css" />
+            </template>
+          `,
+        };
+      },
+      methods: {
+        scrollToTop() {
+          // Smoothly scrolls the window to the top
+          console.log('Scrolling to top');
+          const scrollableElement = document.querySelector(".content");
+          console.log(scrollableElement);
+
+          scrollableElement.scrollTo({
+            top: 0,
+            behavior: "smooth", // Smooth scrolling effect
+          });
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        },
+        addTargetBlankToLinks() {
+          console.log('Adding target="_blank" to all links');
+          const links = document.querySelectorAll("a");
+          console.log(links);
+
+          links.forEach((link) => {
+            if (!link.hasAttribute("target")) {
+              link.setAttribute("target", "_blank");
+            }
+          });
+        },
+        addTargetBlankToShadowLinks() {
+          console.log('Adding target="_blank" to all links in shadow DOM');
+          const zeroMdElement = document.querySelector("zero-md");
+          if (zeroMdElement && zeroMdElement.shadowRoot) {
+            // Access the Shadow DOM
+            const shadowLinks = zeroMdElement.shadowRoot.querySelectorAll("a");
+            console.log(shadowLinks);
+
+            shadowLinks.forEach((link) => {
+              if (!link.hasAttribute("target")) {
+                link.setAttribute("target", "_blank");
+              }
+            });
+          }
+        },
+        toggleMenu() {
+          this.isMenuVisible = !this.isMenuVisible;
+        },
+        reloadCV() {
+          // Reload the CV by updating `src` to refetch from the server
+          this.cvSrc = '/cv?reload=' + new Date().getTime();
+        },
+        changeStyle(theme) {
+          // Toggle between light and dark themes
+          this.theme = theme === 'dark' ? 'dark-mode' : 'light-mode';
+        },
+      },
+      mounted() {
+        const zeroMdElement = document.querySelector("zero-md");
+
+        if (zeroMdElement) {
+          zeroMdElement.addEventListener("zero-md-rendered", () => {
+            this.addTargetBlankToShadowLinks();
+          });
+        }
+      },
+      updated() {
+        this.addTargetBlankToShadowLinks();
+      },
+    });
+    // Ignore the `zero-md` web component so Vue doesn't try to resolve it
+    app.config.compilerOptions.isCustomElement = (tag) => tag === 'zero-md';
+
+    // Mount the Vue app to the DOM
+    app.mount('#app');
+  </script>
+</body>
+
+</html>

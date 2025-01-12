@@ -1,0 +1,745 @@
+{
+    "basics": {
+        "photo": "bogv.jpg",
+        "name": "Bogdan Vakulyuk",
+        "email": "bogvak@gmail.com",
+        "phones": [],
+        "birthday": "1977-05-18",
+        "social": [
+            {
+                "network": "github",
+                "url": " https://github.com/bogvak"
+            },
+            {
+                "network": "linkedin",
+                "url": "https://www.linkedin.com/in/bogvak"
+            },
+            {
+                "network": "instagram",
+                "url": "https://www.instagram.com/bogdanvak/"
+            },
+            {
+                "network": "slideshare",
+                "url": "https://www.slideshare.net/bogvak"
+            }
+        ],
+        "work_permits": [
+            "EU/LV Permanent resident"
+        ],
+        "citizenship": "Ukraine"
+    },
+    "skills": [
+        {
+            "type": "DevOps/SRE",
+            "level": 7,
+            "name": "AWS",
+            "categories": [
+                "Cloud platforms"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 6,
+            "name": "AZure",
+            "categories": [
+                "Cloud platforms"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 7,
+            "name": "GCP",
+            "categories": [
+                "Cloud platforms"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 4,
+            "name": "Oracle Cloud",
+            "categories": [
+                "Cloud platforms"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 4,
+            "name": "Heroku",
+            "categories": [
+                "Cloud platforms"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 5,
+            "name": "Docker",
+            "categories": [
+                "Containers"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 3,
+            "name": "Podman",
+            "categories": [
+                "Containers"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "level": 4,
+            "name": "Rancher",
+            "categories": [
+                "Containers"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Kubernetes",
+            "level": 8,
+            "categories": [
+                "Containers"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "AWS EKS",
+            "level": 5,
+            "categories": [
+                "Kubernetes"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Azure AKS",
+            "level": 4,
+            "categories": [
+                "Kubernetes"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "GCP GKE",
+            "level": 6,
+            "categories": [
+                "Kubernetes"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "OpenShift",
+            "level": 3,
+            "categories": [
+                "Kubernetes"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Minikube/kind/k3s",
+            "level": 4,
+            "categories": [
+                "Kubernetes"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "SQL",
+            "level": 7,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "Postgre/Stolon/PGBouncer",
+            "level": 7,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "MySQL",
+            "level": 5,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "SQL Server",
+            "level": 4,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "DB Normalisation",
+            "level": 7,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE/Developing",
+            "name": "Query optimization",
+            "level": 5,
+            "categories": [
+                "DB (SQL, NoSQL)"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "ELK",
+            "level": 5,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "FluentD",
+            "level": 4,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Seq",
+            "level": 4,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Grafana/Grafana Loki",
+            "level": 5,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Prometheus",
+            "level": 4,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Kibana",
+            "level": 5,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "Python",
+            "level": 8,
+            "categories": [
+                "Programming languagues"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "ELK",
+            "level": 5,
+            "categories": [
+                "Logging/monitoring"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Sentry",
+            "level": 4,
+            "categories": [
+                "Traceability"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Jaeger",
+            "level": 3,
+            "categories": [
+                "Traceability"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "OpenTelemetry",
+            "level": 5,
+            "categories": [
+                "Traceability"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "JSONNET/Tanka",
+            "level": 6,
+            "categories": [
+                "CI/CD"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "GitLabs Workflow",
+            "level": 5,
+            "categories": [
+                "CI/CD"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "GitHub Actions",
+            "level": 7,
+            "categories": [
+                "CI/CD"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Jenkins Pipelines",
+            "level": 3,
+            "categories": [
+                "CI/CD"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Azure Pipelines",
+            "level": 6,
+            "categories": [
+                "CI/CD"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Terraform/Terragrunt",
+            "level": 8,
+            "categories": [
+                "IaC"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Pulumi",
+            "level": 5,
+            "categories": [
+                "IaC"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "CloudFormation",
+            "level": 4,
+            "categories": [
+                "IaC"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Terraform/Terragrunt",
+            "level": 8,
+            "categories": [
+                "IaC"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "BiCEP",
+            "level": 3,
+            "categories": [
+                "IaC"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Ansible",
+            "level": 4,
+            "categories": [
+                "Configuration/assests"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Chef",
+            "level": 3,
+            "categories": [
+                "Configuration/assests"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "Puppets",
+            "level": 3,
+            "categories": [
+                "Configuration/assests"
+            ]
+        },
+        {
+            "type": "DevOps/SRE",
+            "name": "ArgoCD",
+            "level": 5,
+            "categories": [
+                "Configuration/assests"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "Javascript",
+            "level": 8,
+            "categories": [
+                "Programming languagues"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "GoLang",
+            "level": 5,
+            "categories": [
+                "Programming languagues"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "Rust",
+            "level": 4,
+            "categories": [
+                "Programming languagues"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "C#",
+            "level": 5,
+            "categories": [
+                "Programming languagues"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "Node.js",
+            "level": 6,
+            "categories": [
+                "Javascript"
+            ]
+        },
+        {
+            "type": "Developing",
+            "name": "Deno",
+            "level": 6,
+            "categories": [
+                "Javascript"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "name": "GoCardless",
+            "position": "Senior Software Developer",
+            "startDate": "2024-09-01",
+            "endDate": "now",
+            "technologies": [
+                "Python",
+                "Django",
+                "JavaScript",
+                "SQL",
+                "React",
+                "GCP",
+                "Kubernetes",
+                "Kibana",
+                "Prometheus"
+            ],
+            "highlights": [
+                "Developing and maintaining one of the main company products - Django-based bank information system",
+                "Improving and optimising of application performance combining of both - infrastructure and advanced software optimising"
+            ]
+        },
+        {
+            "name": "GoCardless",
+            "position": "Senior DevOps/SRE Engineer",
+            "startDate": "2023-05-01",
+            "endDate": "2024-09-01",
+            "technologies": [
+                "GCP",
+                "AWS",
+                "Terraform",
+                "SQL",
+                "Postgres",
+                "Jsonnet",
+                "Kubernetes",
+                "Kibana",
+                "Prometheus"
+            ],
+            "highlights": [
+                "Developing and maintaining company GCP-based infrastructure",
+                "Migration of AWS-based infrastructure to GCP - needed after merging of 2 companies"
+            ]
+        },
+        {
+            "name": "Jean Edwards",
+            "position": "Software Developer, DevOps Engineer",
+            "startDate": "2021-05-01",
+            "endDate": "2023-05-01",
+            "technologies": [
+                ".NET",
+                "C#",
+                ".NET Core",
+                "EF",
+                "MS SQL",
+                "Kubernetes",
+                "Terraform",
+                "Azure",
+                "AWS",
+                "Seq",
+                "Fluentd",
+                "Python",
+                "GitLab",
+                "GitHub",
+                "GitOps",
+                "Rust"
+            ],
+            "highlights": [
+                "Developing and maintaining of multiple enterprise API applications using EF, MS SQL, asynchronous calls etc. (C#/.NET/.NET Core)",
+                "Developing of multiple microservices including using Kubernetes API, data analytics library (Python based)",
+                "Multiple Terraforms setups for deploying of cloud infrastructure",
+                "Kubernetes setup for company in-house application based on Dockerised set of microservices",
+                "Porting from Docker Compose and Pulumi to Terraform",
+                "A lot of CI/CD pipelines (GitHub, Azure DevOps, GitLab) for different purposes - automatic multistage deployment to cloud and on-premise",
+                "Test and security check automation etc",
+                "Introduce and implement GitOps practice",
+                "Developing of additional CLI tools (Rust) for easing of IoC solution management and deploying"
+            ]
+        },
+        {
+            "name": "Accenture",
+            "position": "Software Developer, Team Lead, Senior Analyst",
+            "startDate": "2018-05-01",
+            "endDate": "2021-05-01",
+            "technologies": [
+                ".NET",
+                "C#",
+                ".NET Core",
+                "EF",
+                "MS SQL",
+                "Kubernetes",
+                "Terraform",
+                "Azure",
+                "AWS",
+                "Seq",
+                "Fluentd",
+                "Python",
+                "GitLab",
+                "GitHub",
+                "GitOps",
+                "Rust"
+            ],
+            "highlights": [],
+            "projects": [
+                {
+                    "name": "Sports goods industry",
+                    "duration": "4 months",
+                    "role": "Software Developer, Team Lead",
+                    "technologies": [
+                        "Python (Flask/Pandas/Numpy/Dash)",
+                        "Spark/Hive",
+                        "Postgres",
+                        "SCSS"
+                    ],
+                    "summary": "Creating of UI for representation of data that is produced as result of analyzing BigData by AI (linear regression)."
+                },
+                {
+                    "name": "Pharmaceutical Industry",
+                    "duration": "1 year",
+                    "role": "Software Developer",
+                    "technologies": [
+                        "React JS",
+                        "Python (Flask)",
+                        "SQL/Postgres",
+                        "Docker",
+                        "Jenkins"
+                    ],
+                    "summary": "Creating of dashboard portal for showing of lot company different data and metrics."
+                },
+                {
+                    "name": "Food&Beverage Industry",
+                    "duration": "8 month",
+                    "role": "Software Developer, Team Lead",
+                    "technologies": [
+                        "Python (Flask, Pandas, Rest API)",
+                        "SQL (Complex queries, stored procedures, triggers)",
+                        "Salesforce Heroku cloud platform",
+                        "DB architecture (Postgres)",
+                        "Project planning"
+                    ],
+                    "summary": "Developed back-end technical sales analytical application with front-end on Salesforce that communicate with SFDC/Mulesoft through set of API endpoints, use and transform data directly on DB. There were implemented parallel process running management, was made significant DB and SQL queries optimization for stable performance of operation with large dataset (about 500K records per transaction)."
+                },
+                {
+                    "name": "Internal SharePoint Resources",
+                    "duration": "8 month",
+                    "role": "Software Developer",
+                    "technologies": [
+                        "SharePoint Online",
+                        "SharePoint Framework",
+                        "custom webpart development (C#/JavaScript/TypeScript/React)",
+                        "WebParts"
+                    ],
+                    "summary": "Development/extending/maintaining of set of internal service SP sites based on SharePoint Online tenant."
+                },
+                {
+                    "name": "FCMG",
+                    "duration": "2 months",
+                    "role": "Software Developer",
+                    "technologies": [
+                        "SharePoint Online",
+                        "SharePoint Framework",
+                        "custom webpart development (C#/JavaScript/TypeScript/React)",
+                        "WebParts"
+                    ],
+                    "summary": "Optimization of SharePoint Online data structures, development of custom webparts for corporate wiki portal, implementation of graphical mock-ups with CSS/HTML5/JS technology stack."
+                },
+                {
+                    "name": "Heavy Industry Project",
+                    "duration": "2 months",
+                    "role": "Software Developer",
+                    "technologies": [
+                        "SharePoint Online",
+                        "SharePoint Framework",
+                        "custom webpart development (C#/JavaScript)",
+                        "PnP provisioning (PowerShell)",
+                        "Azure Functions",
+                        "Microsoft Flow"
+                    ],
+                    "summary": "Optimization of SharePoint Online data structures, development of custom webparts for corporate wiki portal, implementation of graphical mock-ups with CSS/HTML5/JS technology stack."
+                }
+            ]
+        },
+        {
+            "name": "EMAG Company",
+            "position": "Chief Marketing Analyst, Business Development Manager, Technical And Presale Specialist",
+            "startDate": "2013-10-01",
+            "endDate": "2018-04-01",
+            "technologies": [
+                "C/C++",
+                "Python (Flask, Pandas, Rest API)",
+                "Lua",
+                "Pawn",
+                "Visual Basic for Applications",
+                "System administering/Shell sctipting",
+                "MySQL/Postgres/PHP/Node.js/JavaScript/CSS"
+            ],
+            "highlights": [
+                "Contributing to public project NodeMCU",
+                "Programming of ESP microcontrollers for integration projects, developing of several small client side scripts for personal project dedicated to designer lighting system, special tool for parsing and decompiling of Neets Project Designer files",
+                "Moving to market and developing for Danish control systems Neets, was developed bunch of programming modules and ready application with reach UI features",
+                "bunch of automation scripts and application for more effective work with Microsoft Office applications, bunch of scripts for automatic application deploying, database and site source backing up and so on",
+                "Supporting and contributing to locally adapted OpenCart CMS - sites qubino.ru, www.moy-domovoy.ru; Supporting, customizing and developing for Wordpress CMS - proavtoday.ru; etc"
+            ]
+        },
+        {
+            "name": "CIS Events Group",
+            "position": "Program director",
+            "startDate": "2013-11-01",
+            "endDate": "2018-04-01",
+            "technologies": [
+                "Visual Basic for Applications",
+                "MySQL/Postgres/PHP/Node.js/JavaScript/CSS"
+            ],
+            "highlights": [
+                "Special application using Dymo label printers API for event on-site badge printing from Excel based databases;",
+                "Developing of simple internal CRM system (contains some commercial secret information so can't be shown here for public, screenshots are available by request)"
+            ]
+        },
+        {
+            "name": "ASUS, Ukraine branch",
+            "position": "Country product manager (LCD, ODD, multimedia), Technical Marketing manager, PR specialist",
+            "startDate": "2007-02-01",
+            "endDate": "2013-10-01",
+            "technologies": [
+                "Visual Basic for Applications",
+                "MySQL/Postgres/PHP/Node.js/JavaScript/CSS"
+            ],
+            "highlights": [
+                "Tons of scripts for more effective work with Microsoft Office applications;",
+                "Special application for mail campaign with promo codes and feedback analyses, including Excel, Outlook and MySQL integration.",
+                "Developing of internal BI system for partner channel, management, inventory management and so on."
+            ]
+        },
+        {
+            "name": "Publishing House 'ITC Publishing'",
+            "position": "Deputy Editor in Chief, Editorial author, Deputy of production department, Prepress engineer and designer",
+            "description": "Magazines: «What HI-FI» Ukraine&Russia, «PrintWeek» Ukraine&Russia, «Computer Review», «Home PC», DFoto, Mobility, Printweek, What Hi-Fi.",
+            "startDate": "2007-02-01",
+            "endDate": "2013-10-01",
+            "technologies": [
+                "Object Pascal (Borland Delphi)",
+                "VBA/JS programming",
+                "C++/VisualStudio"
+            ],
+            "highlights": [
+                "Several native x86 client-server applications for automation of printing production workflow;",
+                "Several Adobe InDesign plug-ins;",
+                "Several applications for automatic database publications.",
+                "Adobe InDesign scripts using InDesign API for automation of publishing workflow",
+                "Custom business workflow automation tools"
+            ]
+        }
+    ],
+    "companies": {
+        "GoCardless": {
+            "location": "Riga, Latvia",
+            "url": "XXXXXXXXXXXXXXXXXXXXXXX"
+        },
+        "Jean Edwards": {
+            "location": "Riga, Latvia",
+            "url": "XXXXXXXXXXXXXXXXXXXXXXX"
+        }
+    },
+    "education": [
+        {
+            "institution": "Kyiv's Economical University",
+            "country": "UA",
+            "studyType": "Master of Economics",
+            "area": "Economical cybernetics",
+            "endDate": "2004-07-01"
+        },
+        {
+            "institution": "Kyiv's College of Information Technologies, Kyiv",
+            "country": "UA",
+            "studyType": "Special degree",
+            "area": "Electronics",
+            "endDate": "1995-06-01"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "B2"
+        },
+        {
+            "language": "Russian",
+            "fluency": "Native"
+        },
+        {
+            "language": "Ukrainian",
+            "fluency": "Native"
+        },
+        {
+            "language": "Latvian",
+            "fluency": "A2"
+        },
+        {
+            "language": "German",
+            "fluency": "A1"
+        },
+        {
+            "language": "French",
+            "fluency": "A1"
+        }
+    ]
+}

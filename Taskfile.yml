@@ -1,0 +1,38 @@
+version: '3'
+
+tasks:
+  server:
+    cmds:
+      - poetry run uvicorn src.server:app --reload --port 8001
+    env:
+      CVHOST: "http://127.0.0.1:8001"
+      CVFILE: "private.json"
+
+  server_remote:
+    cmds:
+      - poetry run uvicorn src.server:app --reload --port 8001
+    env:
+      CVHOST: "https://cv.bogv.online"
+      CV_SHOW_PRIVATE: "true"
+      CVFILE: "private.json"
+
+  local-deploy-cv:
+    cmds:
+      - robocopy . L:\volumes\\cv-bogv-data public.json /V;
+      - echo "copy-data done";
+  
+  local-deploy-app:
+    cmds:
+      - robocopy src L:\volumes\\cv-bogv-data\\src /E /V /XD __pycache__;
+      - robocopy static L:\volumes\\cv-bogv-data\\static /E /V;
+      - echo "copy-data done";
+
+  preview:
+    cmds:
+      - poetry run python .\\src\\gen_md.py
+
+  preview-private:
+    cmds:
+      - poetry run python .\\src\\gen_md.py
+    env:
+      CVFILE: "private.json"
